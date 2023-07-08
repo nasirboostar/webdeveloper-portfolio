@@ -3,9 +3,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .mary{
-    font-size: 45px;
+    font-size: 44px;
     color:  #181818;
    
 }
@@ -24,6 +25,11 @@ nav > ul > li{
 }
 .nav-button{
 
+}
+/* header style */
+header{
+    background-color: #FFF8F3;
+   
 }
 /* common style  */
 
@@ -44,4 +50,7 @@ padding: 18px 36px;
 
 .text-primary{
    color: #FD6E0A ;
+}
+.banner{
+
 }
