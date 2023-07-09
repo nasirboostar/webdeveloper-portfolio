@@ -3,8 +3,8 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background: #FFF8F3;
-    padding: 0px 200px;
+    
+    margin: 0px 200px;
 }
 nav ul{
      display: flex;
@@ -44,4 +44,45 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+/* header style */
+.header-style{
+    background: #FFF8F3;
+}
+/* banner-style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hardy-img{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
+}
+.banner-greetings{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.banner-name{
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner-paragraph{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+flex-direction: column;
 }
