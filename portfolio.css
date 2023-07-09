@@ -101,7 +101,8 @@ flex-direction: column;
    padding: 130px;
    border-radius: 10px;
    background: #FFF8F3;
-   margin: 130px;
+   max-width: 1140px;
+   margin: 130px auto;
 }
 .section-title{
 
@@ -122,4 +123,27 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 
+}
+.info-title{
+    color:#474747;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.info-description{
+    color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    
 }
