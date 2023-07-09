@@ -147,3 +147,42 @@ line-height: 30px;
     justify-content: space-around;
     
 }
+.box{
+    width: 267px;
+height: 377px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+box-sizing: border-box;
+
+
+
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.icon{
+
+    width: 44px;
+height: 44px;
+padding: 30px;
+
+}
+.section-title2{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-discription2{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
